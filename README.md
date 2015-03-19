@@ -15,18 +15,18 @@ You should create one R script called run_analysis.R that does the following.
 activity and each subject.
 
 run_analysis.R reads in the following files in the train folder :
-X_train.txt
-y_train.txt
-subject_train.txt
+1. X_train.txt
+2. y_train.txt
+3. subject_train.txt
 
 test folder:
-X_test.txt
-y_test.txt
-subject_test.txt
+1. X_test.txt
+2. y_test.txt
+3. subject_test.txt
 
 same folder as run_analysis.R:
-features.txt
-acivity_labels.txt
+1. features.txt
+2. activity_labels.txt
 
 1. Once data has been read, the train and test sets are merged together.
 2. The features in features.txt that contain the phrase "mean" or "std" are then identified and extracted from X dataset.
