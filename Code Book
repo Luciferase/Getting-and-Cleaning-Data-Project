@@ -1,5 +1,5 @@
 
-Variables
+Variables names - data they contain
 
 X_trainData - raw X_train data
 X_testData - raw X_test data
@@ -14,4 +14,5 @@ Y_trainTest - merged Y_train and Y_test data
 subject_trainTest - merged subject train data and subject_test data
 meanStdFeatures - extracts a list of numbers from features indicating rows of features containing the phrase "mean" or "std" 
 XYsubjectData - merged X_trainTest data, Y_trainTest data and subject_trainTest data
+numberOfColumns - the number of columns in XYsubjectData minus 2
 tidy_data - contains the averaged data extracted from XYsubjectData
